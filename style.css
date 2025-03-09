@@ -13,6 +13,7 @@ main{
     background-color: #161722;
     width: 100vw;
     height: 60vh;
+    position: relative;
 }
 h1{
     font-size: 44px;
@@ -44,7 +45,7 @@ button{
     padding: 15px;
     background-color: transparent;
     border: none;
-    border: 1px solid blue;
+    border: 2px solid blue;
     border-radius: 100%;
 
 }
@@ -70,7 +71,7 @@ button{
     gap: 20px;
     align-items: center;
     position: absolute;
-    top: 22%;
+    top: 3%;
     left: 5%;
     z-index: +1;
 }
@@ -106,6 +107,18 @@ button{
 }
 
 
+.wrapper-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    bottom: 90%;
+    left: 31%;
+
+
+}
+
+
 
 
 
@@ -119,6 +132,17 @@ button{
     
     }
      */
+
+     .wrapper-main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        bottom: 85%;
+        left: 12%;
+    
+    
+    }
 
 }
 
